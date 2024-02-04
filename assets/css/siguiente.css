@@ -1,3 +1,7 @@
+.display{
+    display: none;
+}
+
 .background-black {
     position: absolute;
     background: rgba(0, 0, 0, 0.349);
@@ -67,4 +71,48 @@
 .input-content input:focus {
  border:none ;
  outline: none;
+}
+
+.description {
+  margin-top: 20px ;
+}
+
+.description label {
+    font-weight: bold;
+}
+
+.description p {
+    color: #657786
+} 
+
+.date {
+    display: flex;
+}
+
+.date .input-content {
+   margin: 20px 5px;
+}
+
+.date .one {
+    width: 200px;
+}
+
+.date .two {
+    width: 100px;
+}
+
+.date .three{
+    width: 150px;
+}
+
+.date .input-content select{
+ background: rgba(245, 248, 250);
+ border: none;
+ padding: 5px;
+ font-size: 17px;
+}
+
+.date .input-content select:focus {
+    border: none;
+    outline: none;
 }

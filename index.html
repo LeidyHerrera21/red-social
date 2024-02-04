@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/siguiente.css">
 </head>
 <body>
-    <div class="background-black">
+    <div class="background-black display ">
         <div class="window-register">
            <div class="header-register">
             <div class="space"></div>
@@ -19,20 +19,92 @@
 
             <p class="title">Crea Tu Cuenta</p>
 
-           <div class="input-content">
+           <div class="input-content content-one">
             <label for="">Nombre</label>
-            <input type="text" class="text" id="">
+            <input  id="one" type="text" class="text" id="">
            </div>
 
-           <div class="input-content">
+           <div class="input-content content-two">
             <label for="">Correo</label>
-            <input type="text" class="text" id="">
+            <input id="two" type="text" class="text" id="">
            </div>
 
            <div class="description"></div>
-            <label for="">Fecha</label>
+            <label for="">Fecha de nacimiento</label>
             <p>Esta información no será pública. Confirma tu propia edad, incluso si esta cuenta es para una empresa, una marca u otra cosa.</p>
+        
+
+        <div class="date">
+            <div class="input-content one">
+                <label for="">Mes</label>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">Enero</option>
+                    <option value="">Febrero</option>
+                    <option value="">Marzo</option>
+                    <option value="">Abril</option>
+                    <option value="">Mayo</option>
+                    <option value="">Junio</option>
+                    <option value="">Julio</option>
+                    <option value="">Agosto</option>
+                    <option value="">Setiembre</option>
+                    <option value="">Octubre</option>
+                    <option value="">Noviembre</option>
+                    <option value="">Diciembre</option>
+                </select>
+            </div>
+
+            <div class="input-content two">
+                <label for="">Dia</label>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                </select>
+            </div>
+
+            <div class="input-content three">
+                <label for="">Año</label>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">1996</option>
+                    <option value="">1997</option>
+                    <option value="">1998</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                    <option value="">2005</option>
+                    <option value="">2006</option>
+                    <option value="">2007</option>
+                    <option value="">2008</option>
+                </select>
+            </div>
         </div>
+
+        <div class="input-content content-three">
+            <label for="">Contraseña</label>
+            <input id="three" type="text" class="text" id="">
+        </div>
+
+    </div>
     </div>
     <div class="home-content">
         <div class="box-one">
@@ -65,12 +137,14 @@
 
             <div class="butttons-content">
                 <p class="description">Únete hoy mismo</p>
-                <button>Registrate</button>
+                <button id="show">Registrate</button>
                 <a href="">Inicia Sesión</a>
             </div>
 
          </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
